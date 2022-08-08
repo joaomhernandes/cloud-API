@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping
     public String hello(){
-        return "Hello DIO. Java devs";
+        return "Hello! To test this API with Swagger, please use the link https://cloud-api-parking.herokuapp.com/swagger-ui.html";
     }
 
 }
